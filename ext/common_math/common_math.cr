@@ -1,3 +1,4 @@
+require "sqlite3"
 lib CrRuby
   type VALUE = Void*
   type METHOD_FUNC = VALUE, VALUE -> VALUE
